@@ -18,3 +18,14 @@ const Myage = {
     }
 }
 console.log( ("My Date of Birth is") + ' ' + Myage.Fulldob());
+
+const MyFriendsAge = {
+    DateofBirth : "01/01/1999",
+    Year : "1999",
+    Date : "01",
+    Month : "January",
+    FullFrienddob : function(){
+        return this.Date + ' ' + this.Month + ' ' + this.Year;
+    }
+}
+console.log( ("My friends Date of Birth is") + ' ' + MyFriendsAge.FullFrienddob());
